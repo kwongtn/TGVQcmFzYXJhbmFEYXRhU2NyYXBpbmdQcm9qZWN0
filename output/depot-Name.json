@@ -1,0 +1,146 @@
+[
+    {
+        "depotID": "1",
+        "serviceName" : "RapidKL",
+        "active": false,
+        "depotName": "Sentul"
+    },
+    {
+        "depotID": "2",
+        "serviceName" : "RapidKL",
+        "active": true,
+        "depotName": "Batu Caves"
+    },
+    {
+        "depotID": "3",
+        "serviceName" : "RapidKL",
+        "active": false,
+        "depotName": "Melawati"
+    },
+    {
+        "depotID": "4",
+        "serviceName" : "RapidKL",
+        "active": true,
+        "depotName": "Maluri"
+    },
+    {
+        "depotID": "5",
+        "serviceName" : "RapidKL",
+        "active": true,
+        "depotName": "Cheras Selatan"
+    },
+    {
+        "depotID": "6",
+        "serviceName" : "RapidKL",
+        "active": false,
+        "depotName": "OKR"
+    },
+    {
+        "depotID": "7",
+        "serviceName" : "RapidKL",
+        "active": true,
+        "depotName": "Shah Alam"
+    },
+    {
+        "depotID": "8",
+        "serviceName" : "RapidKL",
+        "active": false,
+        "depotName": "Asia Jaya"
+    },
+    {
+        "depotID": "9",
+        "serviceName" : "RapidKL",
+        "active": false,
+        "depotName": "Kepong"
+    },
+    {
+        "depotID": "10",
+        "serviceName" : "RapidKuantan",
+        "active": true,
+        "depotName": "Kuantan"
+    },
+    {
+        "depotID": "11",
+        "serviceName" : "RapidPenang",
+        "active": true,
+        "depotName": "Tanjung Bungah"
+    },
+    {
+        "depotID": "12",
+        "serviceName" : "RapidPenang",
+        "active": true,
+        "depotName": "Sungai Nibong"
+    },
+    {
+        "depotID": "13",
+        "serviceName" : "RapidPenang",
+        "active": true,
+        "depotName": "Weld Quay"
+    },
+    {
+        "depotID": "14",
+        "serviceName" : "RapidPenang",
+        "active": true,
+        "depotName": "Balik Pulau"
+    },
+    {
+        "depotID": "15",
+        "serviceName" : "RapidPenang",
+        "active": true,
+        "depotName": "Mak Mandin"
+    },
+    {
+        "depotID": "16",
+        "serviceName" : "RapidPenang",
+        "active": true,
+        "depotName": "Nibong Tebal"
+    },
+    {
+        "depotID": "17",
+        "serviceName" : "RapidKL",
+        "active": false,
+        "depotName": "Lorong Kulit"
+    },
+    {
+        "depotID": "18",
+        "serviceName" : "RapidKL",
+        "active": true,
+        "depotName": "BRT Sunway"
+    },
+    {
+        "depotID": "19",
+        "serviceName" : "RapidKamunting",
+        "active": true,
+        "depotName": "Kamunting"
+    },
+    {
+        "depotID": "20",
+        "serviceName" : "RapidPenang",
+        "active": true,
+        "depotName": "Academy"
+    },
+    {
+        "depotID": "21",
+        "serviceName" : "RapidKL",
+        "active": true,
+        "depotName": "MRT Sungai Buloh"
+    },
+    {
+        "depotID": "22",
+        "serviceName" : "RapidKL",
+        "active": true,
+        "depotName": "MRT Kajang"
+    },
+    {
+        "depotID": "23",
+        "serviceName" : "RapidManjung",
+        "active": true,
+        "depotName": "Manjung"
+    },
+    {
+        "depotID": "24",
+        "serviceName" : "RapidSP",
+        "active": true,
+        "depotName": "Sungai Petani"
+    }
+]
