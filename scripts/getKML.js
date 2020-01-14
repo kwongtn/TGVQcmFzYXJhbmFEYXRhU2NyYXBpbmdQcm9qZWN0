@@ -1,24 +1,23 @@
 var https = require('https');
 var fs = require('fs');
+const func = require('./functions');
 
-var depotList = JSON.parse(fs.readFileSync("../output/depot-Name.json"));
+var depotList = func.getDepotList();
 
 // Removes all spaces in depotList
 for (var i = 0; i < depotList.length; i++) {
-    depotList[i].depotName = depotList[i].depotName.replace(/\s/g, "");
+    depotList[i].depotName = func.replaceSpaces(depotList[i].depotName, "");
 }
 
 depotList.forEach((item, index, array) => {
     var exist = true;
     const depotID = item.depotID;
-    const serviceName = item.serviceName;
     const depotName = item.depotName;
     const active = item.active;
 
     if (active) {
         try {
-            var routes = JSON.parse(fs.readFileSync("../output/Key-Value_Pair/".concat(depotID, ".json")));
-            // var routes = JSON.parse(fs.readFileSync("../Key-Value_Pair/".concat(depotID, "-", depotName, ".json")));
+            var routes = func.getKeyValuePair(depotID);
         } catch (error) {
             console.log(error.message);
             exist = false;
@@ -27,7 +26,7 @@ depotList.forEach((item, index, array) => {
         if (exist) {
             // Replaces all spaces with "%20"
             for (var i = 0; i < routes.length; i++) {
-                routes[i].val = routes[i].val.replace(/\s/g, "%20");
+                routes[i].val = func.replaceSpaces(routes[i].val, "%20");
             }
             console.log("Accessed", index + 1, "-", depotName);
 
