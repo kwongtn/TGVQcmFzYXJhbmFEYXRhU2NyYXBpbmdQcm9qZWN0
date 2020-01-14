@@ -34,7 +34,7 @@ depotList.forEach((item, index, array) => {
                 var option = {
                     'method': 'GET',
                     'hostname': 'prs.prasarana.com.my',
-                    'path': '/assets/map/'.concat(item.val).concat('.kml'),
+                    'path': '/assets/map/'.concat(item.val).concat('.kml?dummy=' + (new Date()).getTime()),
                     'headers': {
                         'User-Agent': 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
                         // 'Cookie': "ci_session=umfn65r7seletanh9n5k1rdgn0pshjno",
