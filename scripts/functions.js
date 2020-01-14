@@ -40,3 +40,6 @@ module.exports.replaceSpaces = (sourceStr, replaceStr) => {
     return sourceStr.replace(/\s/g, replaceStr);
 };
 
+module.exports.sleep = (ms) => {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
