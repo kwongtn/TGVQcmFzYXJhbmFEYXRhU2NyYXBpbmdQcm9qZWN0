@@ -21,7 +21,7 @@ var fs = require("fs");
  * Variable is to decide whether to remove all spaces
 */
 module.exports.getDepotList = () => {
-    try{
+    try {
         return JSON.parse(fs.readFileSync("../output/depot-Name.json"));
     } catch (err) {
         console.log(err.message);
@@ -29,7 +29,7 @@ module.exports.getDepotList = () => {
 };
 
 module.exports.getKeyValuePair = (depotID) => {
-    try{
+    try {
         return JSON.parse(fs.readFileSync("../output/Key-Value_Pair/".concat(depotID, ".json")));
     } catch (err) {
         console.log(err.message);
@@ -42,4 +42,4 @@ module.exports.replaceSpaces = (sourceStr, replaceStr) => {
 
 module.exports.sleep = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
-  }
+};

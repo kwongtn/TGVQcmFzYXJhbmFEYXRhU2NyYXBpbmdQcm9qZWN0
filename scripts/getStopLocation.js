@@ -41,14 +41,14 @@ depotList.forEach(async (item, index, array) => {
             };
             console.log("Request for", option.path);
 
-            var req = https.request(option, function (res) {
+    var req = https.request(option, (res) => {
                 var chunks = [];
 
-                res.on("data", function (chunk) {
+        res.on("data", (chunk) => {
                     chunks.push(chunk);
                 });
 
-                res.on("end", async (chunk) => {
+        res.on("end", (chunk) => {
                     console.log("Request for", option.path);
                     var body = Buffer.concat(chunks);
 
@@ -72,8 +72,8 @@ depotList.forEach(async (item, index, array) => {
 
                 });
 
-                res.on("error", function (error) {
-                    console.error(error.message);
+        res.on("error", (err) => {
+            console.error(err.message);
                 });
 
             });
