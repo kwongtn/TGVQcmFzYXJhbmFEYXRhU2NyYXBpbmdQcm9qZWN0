@@ -1,4 +1,4 @@
-* All data specified here are available for public access (A.k.a. no login is required)
+* All data specified here are available for public access (a.k.a. no login is required)
 
 # Prasarana Management Dashboard
 ## KPI Update

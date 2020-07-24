@@ -26,27 +26,12 @@ This document describes the scripts' usage and its sequence.
     ```
 
 # Getting Bus Stop Locations and Information
+This section is based on the `/scripts/getStopLocation.js` file.  
 1. Do the preliminary steps.
-1. Replace the line in the `options` object within the `routeList.forEach` function within the `depotList.forEach` function with your obtained cookie string.
+1. Replace the `cookie` constant with your obtained cookie string.
     Sample code:
     ```
-    ...
-    depotList.forEach(... => {
-        ...
-        routeList.forEach(... => {
-            var option = {
-                ...
-                'headers': {
-                    ...
-                    'Cookie': "ci_session=<replace your coookie string here>",
-                }
-                ...
-            }
-            ...
-        })
-        ...
-    })
-    ...
+    const cookie = "mu6cnar8jn7cgrnpc2jvhou6bjk40q8r";
     ```
 1. Run `/scripts/getStopLocation.js` to obtain the files. By default it will be saved in `/output/StopList`.
     ```

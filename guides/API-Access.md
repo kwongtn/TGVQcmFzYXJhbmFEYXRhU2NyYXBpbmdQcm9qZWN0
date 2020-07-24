@@ -13,13 +13,14 @@ Sample result:
     }, ... {}, ...
 ]
 ```
-Where:
-`key` : Internal identifier (Referred to as `routeKey`)
-`val` : Route number
+Where:  
+- `key` : Internal identifier (Referred to as `routeKey`)  
+- `val` : Route number
 
 ## Get list of bus running in a specific corridoor
 * Can be done without login
-`https://prs.prasarana.com.my/utiliti/get_buslist/<corridorNumber>`
+`https://prs.prasarana.com.my/utiliti/get_buslist/<corridorNumber>`  
+
 Sample result:
 ```
 {
@@ -71,7 +72,7 @@ Sample result:
 However, the KML file does not have locations of each bus stop.
 
 ## Get bus locations of a specific route
-`https://prs.prasarana.com.my/route/get_live_bus_by_route/U7700`
+`https://prs.prasarana.com.my/route/get_live_bus_by_route/U7700`  
 Sample result:
 ```
 {
@@ -109,64 +110,64 @@ Sample result:
     }, ... "<BusNumberPlate>": {}, ...
 }
 ```
-Where:
-`avl_id`            : 
-`dt_received`       : 
-`dt_gps`            : 
-`latitude`          : 
-`longitude`         : 
-`speed`             : Speed of bus in km/h
-`dir`               : 
-`route`             : 
-`bus_no`            : 
-`trip_no`           : 
-`busstop_id`        : Not sure if is ID of coming bus stop, nearest bus stop or previous bus stop
-`captain_id`        : 
-`trip_rev_kind`     : 
-`engine_status`     : 
-`dt_created`        : 
-`trip_kind_name`    : 
-`trip_dest`         : 
+Where:  
+- `avl_id`            :   
+- `dt_received`       :   
+- `dt_gps`            :   
+- `latitude`          :   
+- `longitude`         :   
+- `speed`             : Speed of bus in km/h  
+- `dir`               :   
+- `route`             :   
+- `bus_no`            :   
+- `trip_no`           :   
+- `busstop_id`        : Not sure if is ID of coming bus stop, nearest bus stop or previous bus stop  
+- `captain_id`        :   
+- `trip_rev_kind`     :   
+- `engine_status`     :   
+- `dt_created`        :   
+- `trip_kind_name`    :   
+- `trip_dest`         :   
 
 # Appendix
 ## Corridor Number
 ### In use
 #### RapidKL
-0 - All
-2 - Batu Caves
-4 - Maluri
-5 - Cheras Selatan
-7 - Shah Alam
-18 - BRT Sunway
-21 - MRT Sungai Buloh
-22 - MRT Kajang
+- 0 - All  
+- 2 - Batu Caves  
+- 4 - Maluri  
+- 5 - Cheras Selatan  
+- 7 - Shah Alam  
+- 18 - BRT Sunway  
+- 21 - MRT Sungai Buloh  
+- 22 - MRT Kajang  
 
 #### RapidKuantan
-10 - Kuantan
+- 10 - Kuantan
 
 #### RapidPenang
-11 - Tanjung Bungah
-12 - Sungai Nibong
-13 - Weld Quay
-14 - Balik Pulau
-15 - Mak Mandin
-16 - Nibong Tebal
-20 - Academy
+- 11 - Tanjung Bungah
+- 12 - Sungai Nibong
+- 13 - Weld Quay
+- 14 - Balik Pulau
+- 15 - Mak Mandin
+- 16 - Nibong Tebal
+- 20 - Academy
 
 #### RapidKamunting
-19 - Kamunting
+- 19 - Kamunting
 
 #### RapidManjung
-23 - Manjung
+- 23 - Manjung
 
 ### Defunct
-1 - Sentul
-3 - Melawati
-6 - OKR
-8 - Asia Jaya 
-9 - Kepong
-17 - Lorong Kulit
+- 1 - Sentul
+- 3 - Melawati
+- 6 - OKR
+- 8 - Asia Jaya 
+- 9 - Kepong
+- 17 - Lorong Kulit
 
 ### RapidSP (not in service)
-24 - Sungai Petani
+- 24 - Sungai Petani
 
