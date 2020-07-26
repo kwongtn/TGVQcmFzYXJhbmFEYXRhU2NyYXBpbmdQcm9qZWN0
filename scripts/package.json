@@ -1,0 +1,19 @@
+{
+  "name": "tgvqcmfzyxjhbmfeyxrhu2nyyxbpbmdqcm9qzwn0",
+  "version": "1.0.0",
+  "description": "Decode TGVQcmFzYXJhbmFEYXRhU2NyYXBpbmdQcm9qZWN0 in Based64 to know what this is all about.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwongtn/TGVQcmFzYXJhbmFEYXRhU2NyYXBpbmdQcm9qZWN0.git"
+  },
+  "author": "KwongTN",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/kwongtn/TGVQcmFzYXJhbmFEYXRhU2NyYXBpbmdQcm9qZWN0/issues"
+  },
+  "homepage": "https://github.com/kwongtn/TGVQcmFzYXJhbmFEYXRhU2NyYXBpbmdQcm9qZWN0#readme"
+}

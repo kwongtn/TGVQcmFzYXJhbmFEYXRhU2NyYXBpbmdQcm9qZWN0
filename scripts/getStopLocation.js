@@ -5,6 +5,7 @@ const func = require('./functions');
 // Copy and paste the 'ci_session' cookie here.
 const cookie = "mu6cnar8jn7cgrnpc2jvhou6bjk40q8r";
 
+module.exports.run = () => {
 const depotList = func.getDepotList();
 // Removes all spaces in depotList
 for (var i = 0; i < depotList.length; i++) {
@@ -96,3 +97,4 @@ depotList.forEach(async (item, index, array) => {
         });
     }
 });
+};

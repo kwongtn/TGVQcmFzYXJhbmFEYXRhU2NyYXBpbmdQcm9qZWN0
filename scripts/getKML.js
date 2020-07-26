@@ -2,6 +2,7 @@ var https = require('https');
 var fs = require('fs');
 const func = require('./functions');
 
+module.exports.run = () => {
 var depotList = func.getDepotList();
 
 // Removes all spaces in depotList
@@ -80,3 +81,4 @@ depotList.forEach((item, index, array) => {
     }
 
 });
+};
