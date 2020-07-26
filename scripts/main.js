@@ -5,15 +5,15 @@ const getStopLocations = require("./getStopLocations.js");
 const params = paramsProcessor.parse(process.argv);
 console.log(params);
 
-if(params.getKML){
+if (params.getKML) {
     getKML.run();
 }
 
-if(params.getStopLocations){
+if (params.getStopLocations) {
     getStopLocations.run();
 }
 
-if(params.getBusFeed){
+if (params.getBusFeed) {
     // Not available
     console.log("Getting bus feed not available at the moment. Function not implemented.");
 }

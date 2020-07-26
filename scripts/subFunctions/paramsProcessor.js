@@ -34,12 +34,12 @@ function paramsProcess(params) {
                 break;
             }
 
-            case "--getStopLocations":{
+            case "--getStopLocations": {
                 keys.getStopLocations = true;
                 break;
             }
 
-            case "--getBusFeed":{
+            case "--getBusFeed": {
                 keys.getBusFeed = true;
                 break;
             }
